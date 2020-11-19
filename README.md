@@ -11,16 +11,9 @@ This is a starter kit for **[Simulation Urban MObility](https://sumo.dlr.de/docs
 
 ## Deploy Application
 1. Install **SUMO**
-2. Click **Create stack**
-3. Select **Upload a template file** and upload *CV_Surveillance_Template.json*
-4. Input a name and click **Create stack**
+2. Place downloaded **[SUMO_Sample](https://github.com/stevenxdeng/SUMO_Starter_Kit)** folder in SUMO directory: `..\Sumo\`
 
-## Test Application
+## Run Application
 1. Install boto3: `python -m pip install boto3`
 2. Run *CV_Surveillance_Client.py*: `python CV_Surveillance_Client.py`\
 *If errors show up, check names of resources (DynamoDB, Kinesis)*
-
-## Destroy Application
-After deletion of CloudFormation, resources are still in usage, **deletions** of these resources are needed to reduce cost impacts:\
-**DynamoDB**\
-**Kinesis Data Stream**
