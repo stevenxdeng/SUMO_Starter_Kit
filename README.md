@@ -11,7 +11,7 @@ This is a starter kit for **[Simulation Urban MObility](https://sumo.dlr.de/docs
 ## Deploy Application
 1. Download [SUMO](https://www.eclipse.org/sumo/)
 1. Install **SUMO**
-2. Place downloaded **[SUMO_Sample](https://github.com/stevenxdeng/SUMO_Starter_Kit)** folder in installed SUMO directory: `..\sumo\`
+2. Place downloaded **[SUMO_Sample](https://github.com/stevenxdeng/SUMO_Starter_Kit)** folder in installed SUMO directory: `../sumo/`
 
 ## Run Application
 1. Run *SUMO_Base.py* by Pyzo or by command: `python SUMO_Base.py`
